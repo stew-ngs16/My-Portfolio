@@ -52,8 +52,8 @@
 }
 
 #about img {
-  width: 350px;
-  height: 320px;
+  width: 40%;
+  object-fit: contain;
 }
 
 .about-flex {
@@ -386,4 +386,8 @@ padding-left: 20%;
   width: 100%;
   
 }
+#design h3 {
+  font-size: 20px;
+}
+
 }
