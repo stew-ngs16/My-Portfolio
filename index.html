@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>H.N Portfolio</title>
+  <link rel="icon" href="img/my icon.webp">
+  <!--CSS読み込み-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--JS読み込み-->
+  <script src="js/main.js" defer></script>
+
+  <!--Google フォント-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <header id="header">
+    <div class="header-inner">
+      <h1>H.N PORTFOLIO</h1>
+
+      <nav>
+        <ul class="header-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+    <div id="navArea">
+      <nav class="header-nav">
+        <div class="inner">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+    </div>
+
+
+    <div class="toggle-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div id="mask"></div>
+    </div>
+
+  </header>
+
+  <section id="main">
+    <main>
+      <picture>
+        <!-- スマホ用 -->
+        <source media="(max-width: 600px)" srcset="img/FVsp.webp">
+        <!-- デフォルト（PC用） -->
+        <img src="img/FV-bg.webp" alt="長坂瞳ポートフォリオ">
+      </picture>
+    </main>
+    <h2 class="name">HITOMI NAGASAKA</h2>
+  </section>
+
+  <section id="about">
+    <div class="about-title">
+      <h2>ABOUT</h2>
+      <h3>私について</h3>
+    </div>
+    <div class="about-flex">
+      <img src="img/my icon.webp" alt="長坂瞳イラスト">
+      <div class="about-flex-right">
+        <div class="about-name">
+          <h3>HITOMI NAGASAKA</h3>
+          <p>長坂 瞳</p>
+        </div>
+        <p>1989年生まれ。山梨県在住。<br>
+          約14年のアパレル勤務後、未経験からWeb制作を学んでおり、今現在Figmaでの制作や、HTML/CSS
+          の基本的なコーディングが可能です。まだ経験は浅く学ぶ事がたくさんありますが、ご依頼人様のイメージやご要望を丁寧にくみ取り、信頼を大事に、ご満足のいくWEB制作を心がけております。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skill">
+    <div class="skill-title">
+      <h2>SKILL</h2>
+      <h3>実務能力</h3>
+    </div>
+    <div class="skill-flex">
+      <div class="skill-flex-left">
+        <div class="skill-inner-title">
+          <h3>コーディング</h3>
+          <span>CORDING</span>
+        </div>
+        <img src="img/キーボードのアイコン素材 3 1.webp" alt="コーディングアイコン">
+        <p>HTML／CSSの基礎を理解し、デザインをもとにしたコーディングやレイアウトの構築が可能です。現在はより実践的なスキルの習得を目指して学習を継続しています。</p>
+      </div>
+      <div class="skill-flex-right">
+        <div class="skill-inner-title">
+          <h3>フィグマ</h3>
+          <span>FIGMA</span>
+        </div>
+        <img src="img/マウスのアイコン素材 1 1.webp" alt="コーディングアイコン">
+        <p>Figmaを使用したワイヤーフレームの作成や、レイアウト・余白・フォントなどの意図を読み取り、コーデイングに反映することが可能です。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="works">
+    <div class="works-title">
+      <h2>WORKS</h2>
+      <h3>制作実績</h3>
+    </div>
+    <div class="works-flex">
+      <div class="works-inner">
+        <a href="works1.html" target="_blank"><img class="fadein" src="img/work1.webp" alt="webサイト模写1">
+          <div class="works-text">
+            <p>WEBサイト模写/学習用</p>
+            <p class="p">HTML/CSS/Figma</p>
+        </a>
+      </div>
+    </div>
+    <div class="works-inner">
+      <a href="works2.html" target="_blank"><img class="fadein" src="img/work2.webp" alt="webサイト模写2">
+        <div class="works-text">
+          <p>WEBサイト模写/学習用</p>
+          <p class="p">HTML/CSS/Figma</p>
+      </a>
+    </div>
+    </div>
+    <div class="works-inner">
+      <a href=""><img class="fadein" src="img/work3.webp" alt="ポートフォリオ">
+        <div class="works-text">
+          <p>ポートフォリオ/自主制作</p>
+          <p class="p">HTML/CSS/Figma</p>
+      </a>
+    </div>
+    </div>
+    </div>
+
+
+  </section>
+  <section id="contact">
+    <div class="contact-inner">
+      <h2>CONTACT</h2>
+      <h3>お問い合わせ</h3>
+      <p>ポートフォリオをご覧下さいましてありがとうございます。<br> Web制作のご相談やご依頼など、下記メールにお気軽にお問い合わせください。<br>内容を確認後、2日以内にご返信いたします。</p>
+      <div>
+        <a class="mail" href="mailto:stuo5396@gmail.com" target="_blank">G-mail</a>
+      </div>
+  </section>
+
+  <footer id="footer">
+    <div class="footer-inner">
+      <p><a href="#about">About</a></p>
+      <p><a href="#skill">Skill</a></p>
+      <p><a href="#works">Works</a></p>
+      <p><a href="#contact">Contact</a></p>
+    </div>
+    <small class="small">©2026 My portfolio</small>
+  </footer>
+  </section>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({ 
+      reset: true, 
+      distance:"60px",
+      duration: 2000 });
+    ScrollReveal().reveal('.fadein', { delay: 500, origin: "bottom" });
+
+  </script>
+</body>
+
+</html>

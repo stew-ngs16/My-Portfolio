@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+.mail,
+nav,
+footer,
+span,
+#design h3,
+.p,
+.about-flex h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 42px;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 16px;
+}
