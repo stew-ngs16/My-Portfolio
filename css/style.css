@@ -195,6 +195,7 @@
 #works-1 img {
   width: 50%;
   margin: 0 auto;
+
 }
 
 .works1-title2 {
@@ -266,12 +267,14 @@
   width: 60%;
   margin: 0 auto;
   margin-top: 80px;
+  border: black 1px solid;
 }
 
 #design .img2 {
   width: 30%;
   margin: 0 auto;
   margin-top: 100px;
+  border: black 1px solid;
 }
 
 .design-pro {
