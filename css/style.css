@@ -79,9 +79,10 @@
 }
 
 .about-name {
-  max-width: 70%;
+  max-width: 80%;
   margin: 0 auto;
   text-align: center;
+ 
 
 }
 
@@ -132,8 +133,6 @@
 }
 
 .skill-inner-title {
-  max-width: 30%;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -305,6 +304,21 @@
   line-height: 26px;
 }
 
+@media (max-width: 750px) {
+  #main .name {
+    font-size: 24px;
+  }
+  .about-flex {
+    flex-direction: column;
+    gap: 0;
+  }
+  #about img {
+    width: 220px;
+    height: 210px;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 600px) {
 
   * {
@@ -334,7 +348,7 @@
   }
 
   #main .name {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   #skill {

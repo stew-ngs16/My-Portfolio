@@ -11,6 +11,13 @@
     nav.classList.toggle("open");
   };
 
+  mask.onclick =() => {
+    nav.classList.toggle("open");
+  };
+
+  mask.onclick = () => {
+    nav.classList.toggle("open");
+  };
 }
 
 

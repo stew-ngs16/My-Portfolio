@@ -39,10 +39,11 @@
 }
 
 /* ハンバーガーメニュー */
+
 #navArea nav {
   font-size: 18px;
   display: block;
-  width: 220px;
+  width: 260px;
   position: fixed;
   background-color: #D4CDB5;
   top: 0;
@@ -53,7 +54,7 @@
   opacity: 0;
 }
 
-.open nav {
+#navArea.open nav {
   left: 0;
   opacity: 1;
 }
@@ -91,9 +92,35 @@
   bottom: 4px;
 }
 
+.open .toggle-btn span {
+  background-color: #fff;
+}
+
+.open .toggle-btn span:nth-child(1) {
+  transform: translateY(10px) rotate(-315deg);
+}
+.open .toggle-btn span:nth-child(2) {
+  opacity: 0;
+}
+.open .toggle-btn span:nth-child(3) {
+  transform: translateY(-10px) rotate(-315deg);
+}
+
 #mask {
   display: none;
   transition: all 0.5s;
+}
+
+.open #mask {
+  display: block;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 nav .inner {
