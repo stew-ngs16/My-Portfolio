@@ -41,17 +41,19 @@
 /* ハンバーガーメニュー */
 
 #navArea nav {
+  left: -300px;
+  opacity: 0;
+  transition: all 0.5s;
+
   font-size: 18px;
   display: block;
   width: 260px;
   position: fixed;
   background-color: #D4CDB5;
   top: 0;
-  left: -300px;
   bottom: 0;
-  transition: all 0.5s;
   z-index: 3;
-  opacity: 0;
+  
 }
 
 #navArea.open nav {
