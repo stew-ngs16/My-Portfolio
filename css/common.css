@@ -103,7 +103,7 @@
   opacity: 0;
 }
 .open .toggle-btn span:nth-child(3) {
-  transform: translateY(-10px) rotate(-315deg);
+  transform: translateY(-10px) rotate(315deg);
 }
 
 #mask {
@@ -111,7 +111,7 @@
   transition: all 0.5s;
 }
 
-.open #mask {
+ .open #mask {
   display: block;
   background-color: #000;
   width: 100%;
